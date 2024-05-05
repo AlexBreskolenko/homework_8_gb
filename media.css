@@ -1,0 +1,38 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 736px;
+  }
+  .main-section__img {
+    width: 386px;
+    height: 368px;
+  }
+  .section-one__block {
+    margin-top: 138px;
+    margin-left: 39px;
+    height: 62px;
+  }
+  .section-one__block h2 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .section-one__block h4 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .section-one__block span {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .main-section__two {
+    grid-template-columns: repeat(3, 232px);
+    grid-template-rows: 167px 116px;
+    gap: 19px;
+  }
+
+  .section-three__box-grid {
+    grid-template-columns: repeat(2, 360px);
+    grid-template-rows: repeat(3, 582px);
+    gap: 15px;
+  }
+}
